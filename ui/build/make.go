@@ -99,23 +99,18 @@ func runMakeProductConfig(ctx Context, config Config) {
 
 	// Variables to print out in the top banner
 	bannerVars := []string{
-		"HOST_ARCH",
-		"HOST_2ND_ARCH",
-		"HOST_OS",
-		"HOST_OS_EXTRA",
-		"HOST_BUILD_TYPE",
-		"OUT_DIR",
+		"REAPER_VERSION",
 		"PLATFORM_VERSION",
 		"TARGET_PRODUCT",
 		"TARGET_BUILD_VARIANT",
-		"TARGET_BUILD_TYPE",
+		"BUILD_ID",
 		"TARGET_ARCH",
 		"TARGET_ARCH_VARIANT",
 		"TARGET_CPU_VARIANT",
-		"TARGET_2ND_ARCH",
 		"TARGET_2ND_ARCH_VARIANT",
 		"TARGET_2ND_CPU_VARIANT",
-		"BUILD_ID",
+		"TARGET_GCC_VERSION",
+		"OUT_DIR",
 	}
 
 	allVars := append(append([]string{
